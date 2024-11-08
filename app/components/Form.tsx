@@ -79,7 +79,7 @@ const Form = ({ onGenerate }: { onGenerate: (formData: any) => void }) => {
             className="voice-button"
             onClick={() => handleVoiceInput(setName)}
           >
-            🎤
+            🎙️
           </button>
         </div>
       </div>
@@ -98,7 +98,7 @@ const Form = ({ onGenerate }: { onGenerate: (formData: any) => void }) => {
             className="voice-button"
             onClick={() => handleVoiceInput(setJobTitle)}
           >
-            🎤
+            🎙️
           </button>
         </div>
       </div>
@@ -116,7 +116,7 @@ const Form = ({ onGenerate }: { onGenerate: (formData: any) => void }) => {
             className="voice-button"
             onClick={() => handleVoiceInput(setExperience)}
           >
-            🎤
+            🎙️
           </button>
         </div>
       </div>
@@ -134,7 +134,7 @@ const Form = ({ onGenerate }: { onGenerate: (formData: any) => void }) => {
             className="voice-button"
             onClick={() => handleVoiceInput(setSkills)}
           >
-            🎤
+            🎙️
           </button>
         </div>
       </div>
@@ -152,7 +152,7 @@ const Form = ({ onGenerate }: { onGenerate: (formData: any) => void }) => {
             className="voice-button"
             onClick={() => handleVoiceInput(setEducation)}
           >
-            🎤
+            🎙️
           </button>
         </div>
       </div>
@@ -170,7 +170,7 @@ const Form = ({ onGenerate }: { onGenerate: (formData: any) => void }) => {
             className="voice-button"
             onClick={() => handleVoiceInput(setCertifications)}
           >
-            🎤
+            🎙️
           </button>
         </div>
       </div>
@@ -188,7 +188,7 @@ const Form = ({ onGenerate }: { onGenerate: (formData: any) => void }) => {
             className="voice-button"
             onClick={() => handleVoiceInput(setLanguages)}
           >
-            🎤
+            🎙️
           </button>
         </div>
       </div>
