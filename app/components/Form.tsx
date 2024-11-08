@@ -38,16 +38,14 @@ const Form = ({ onGenerate }: { onGenerate: (formData: any) => void }) => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    // Validation for mandatory fields
     if (!name || !jobTitle || !skills) {
       setError("Name, Job Title, and Skills are mandatory fields.");
       return;
     }
 
-    setError(""); // Reset any previous error
+    setError("");
     setLoading(true);
 
-    // Send the data to the backend (allowing optional fields to be empty)
     await onGenerate({
       name: name || null,
       jobTitle: jobTitle || null,
@@ -63,10 +61,10 @@ const Form = ({ onGenerate }: { onGenerate: (formData: any) => void }) => {
 
   return (
     <form onSubmit={handleSubmit} className="form">
-      {/* Error message */}
+      {}
       {error && <div className="error-message">{error}</div>}
 
-      {/* Input fields with voice input buttons */}
+      {}
       <div className="input-group">
         <label>Name:</label>
         <div className="input-wrapper">

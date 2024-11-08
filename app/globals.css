@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  width: 90%; /* Increased width for larger form */
+  width: 90%;
   max-width: 700px;
   margin: 30px auto;
   padding: 15px;
@@ -27,7 +27,7 @@ h1 {
 .form {
   display: flex;
   flex-direction: column;
-  gap: 8px; /* Reduced gap between elements */
+  gap: 8px;
 }
 
 .input-group {
@@ -47,16 +47,16 @@ label {
   gap: 8px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  padding: 4px; /* Reduced padding for smaller height */
+  padding: 4px;
   background-color: #f9f9f9;
 }
 
 input,
 textarea {
   flex: 1;
-  padding: 6px; /* Reduced padding for smaller height */
+  padding: 6px;
   font-size: 0.95rem;
-  line-height: 1; /* Adjusted line-height for compactness */
+  line-height: 1;
   border: none;
   background-color: transparent;
   outline: none;
@@ -65,7 +65,7 @@ textarea {
 
 textarea {
   resize: vertical;
-  min-height: 50px; /* Reduced minimum height */
+  /* min-height: 50px; */
 }
 
 .voice-button {
@@ -82,7 +82,7 @@ textarea {
 }
 
 button {
-  padding: 8px 12px; /* Reduced padding for smaller button height */
+  padding: 8px 12px;
   font-size: 1rem;
   font-weight: bold;
   border-radius: 5px;

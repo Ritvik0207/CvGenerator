@@ -8,7 +8,6 @@ import GeneratePdfButton from "./components/GeneratePdfButton";
 export default function Home() {
   const [cvSummary, setCvSummary] = useState<string>("");
 
-  // Function to handle form submission and generate the CV summary
   const generateCv = async (formData: any) => {
     const response = await fetch("/api/generateCV", {
       method: "POST",
@@ -19,16 +18,16 @@ export default function Home() {
     });
 
     const data = await response.json();
-    setCvSummary(data.cvSummary); // Assuming the response contains a 'cvSummary' field
+    setCvSummary(data.cvSummary);
   };
 
   return (
     <div className="container">
       <h1>Professional CV Generator</h1>
-      {/* Form Component where user inputs data */}
+      {}
       <Form onGenerate={generateCv} />
 
-      {/* Display the generated CV summary */}
+      {}
       {cvSummary && (
         <div id="cv-summary">
           <h2>Generated CV Summary</h2>
@@ -36,7 +35,7 @@ export default function Home() {
         </div>
       )}
 
-      {/* The button to download the CV as a PDF */}
+      {}
       {cvSummary && <GeneratePdfButton contentId="pdf-summary" />}
     </div>
   );
