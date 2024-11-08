@@ -37,9 +37,9 @@ export async function POST(req: NextRequest) {
     userContent += `\nPlease provide a **brief summary** that encapsulates the most important aspects of the person's professional background. Focus on the following:
     - Key **skills** and **experience**.
     - **Job title** and **current role** (if given).
-    - Brief mention of **education** and **certifications** (if relevant).
-    - A short, professional **overview** of the person’s career.
-    - Make atleast more than 150 words summary\n`;
+    - Brief mention of **education** and **certifications** (if provided).
+    - A professional **overview** of the person’s career.\n
+    `;
 
     const response = await openai.chat.completions.create({
       model: "gpt-3.5-turbo",
