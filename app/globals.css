@@ -1,0 +1,119 @@
+/* styles/globals.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f8;
+}
+
+.container {
+  width: 90%; /* Increased width for larger form */
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 15px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* Reduced gap between elements */
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+label {
+  font-weight: bold;
+  color: #555;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 4px; /* Reduced padding for smaller height */
+  background-color: #f9f9f9;
+}
+
+input,
+textarea {
+  flex: 1;
+  padding: 6px; /* Reduced padding for smaller height */
+  font-size: 0.95rem;
+  line-height: 1; /* Adjusted line-height for compactness */
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: #333;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 50px; /* Reduced minimum height */
+}
+
+.voice-button {
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  color: #0070f3;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.voice-button:hover {
+  color: #005bb5;
+}
+
+button {
+  padding: 8px 12px; /* Reduced padding for smaller button height */
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  background-color: #0070f3;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+#cv-summary {
+  margin-top: 20px;
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+#cv-summary h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#cv-summary p {
+  font-size: 1rem;
+  color: #555;
+}
