@@ -6,9 +6,9 @@
    ```bash
    OPENAI_API_KEY="your_api_key_here"
   
-2.npm install
-
-3.npm run dev
+2. ```bash
+   npm install
+   npm run dev
 
 
 
